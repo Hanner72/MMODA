@@ -1,10 +1,51 @@
 body{
   font-family: "Newsreader";
+  background-image: url("../../cities/images/palfau.jpg");
+  background-position-x: center;
+  background-position-y: 125px;
 }
 
+.top{
+  background: #cfc794;
+  width: 100%;
+  height: 125px;
+  margin-bottom: 10px;
+}
+
+.layertoplinks{
+  width: calc((100% - 1280px) / 2);
+  float: left;
+}
+
+.layertopmitte{
+  width: 1280px;
+  float: left;
+}
+
+.layertoprechts{
+  width: calc((100% - 1280px) / 2);
+  float: left;
+}
 .hauptseite{
   background: #cfc794;
-  width: 800px;
+  width: 1280px;
   margin: 0 auto;
   padding: 10px;
+}
+
+.layer{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.header{
+  background-color: azure;
+}
+
+.content{
+  background-color: burlywood;
+}
+
+.footer{
+  background-color: coral;
 }
